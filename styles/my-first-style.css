@@ -1,13 +1,14 @@
 .resumen {
-  margin-left: 18rem;
+  margin-left: 20%;
   max-width: 75rem;
+  flex-grow: 1;
+  text-align: center;
 }
 
 .flex-container-body{
   display:flex;
   align-items: flex-start;
   flex-flow: row nowrap;
-
 }
 
   #nav-side {
@@ -17,9 +18,8 @@
     left: 0;
     display: flex;
     flex-direction: column;
-    width: 17rem;
+    width: 20%;
     height: 100%;
-    background-color: red;
   }
     #nav-side .navbar-collapse {
         display: flex;
