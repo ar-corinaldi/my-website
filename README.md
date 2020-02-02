@@ -1,4 +1,14 @@
 # my-website
-This is my personal website, here you're gonna see some details about me!
+Project objective:
+This project is an assignment for my web development course, however this page is very important to me as you'll see most important things that I've achieved in a lifetime. I hope you can enjoy it!. 
 
-Enjoy.
+Screenshots:
+
+Tech requirements:
+A modern web browser.
+
+How to use it:
+Click in the following link!: <link>
+
+homepage:
+https://github.com/ar-corinaldi
