@@ -13,30 +13,64 @@
 
 <body>
     <div class="flex-container-body">
-    <nav id="nav-side" class="navbar navbar-expand-lg bg-primary fixed-top">
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a onclick="myFunction('skills')" class="nav-link js-scroll-trigger">Skills</a>
-                </li>
-                <li class="nav-item">
-                    <a onclick="myFunction('courses')" class="nav-link">Courses</a>
-                </li>
-                <li class="nav-item">
-                    <a onclick="myFunction('projects')" class="nav-link">Projects</a>
-                </li>
-                <li class="nav-item">
-                    <a href="contactme.html" class="nav-link" style="align-self: flex-end;">Contact Me</a>
-                </li>
-            </ul>
+        <nav id="nav-side" class="navbar navbar-expand-lg bg-primary fixed-top">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a onclick="myFunction('about')" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a onclick="myFunction('skills')" class="nav-link js-scroll-trigger">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a onclick="myFunction('courses')" class="nav-link">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a onclick="myFunction('projects')" class="nav-link">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="contactme" href="contactme.html" class="nav-link" style="flex-grow: 1;">Contact Me</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="resumen d-flex flex-column align-items-center">
+            <div class="about">
+                <h1 id="about">Hola, mi nombre es Allan Corinaldi y soy un adolescente de 20 años que vive en Colombia. 
+                <span id="about-segunda-linea">Esta página está hecha para mostrar mis habilidades, mi estudio y mis logros en esta corta vida.</span>
+                <span id="about-tercera-linea">Espero que la disfruten!</span></h1>
+            </div>
+            <hr>
+            <div class="skills">
+                <h1 id="skills">Skills</h1>
+                <h3>Soy un estudiante de ingenieria de sistemas de la universidad de los Andes, actualmente cursando su sexto semestre.</h3>
+            </div>
+            <hr>
+            <div class="courses">
+                <h1 id="courses">Important Courses</h1>
+                <ol class="courses-list">
+                    <li class="course-item">Algorítmica y Programación Orientada a Objetos</li>
+                    <li class="course-item">Diseño y Análisis de Algorítmos</li>
+                    <li class="course-item">Arquitectura de Software</li>
+                    <li class="course-item">Desarrollo de Software</li>
+                    <li class="course-item">Estructura de Datos</li>
+                    <li class="course-item">Sistemas Transaccionales</li>
+                </ol>
+                <h3>Actualmente en el curso de desarrollo web!</h3>
+            </div>
+            <hr>
+            <div class="projects">
+                <h1 id="projects">Projects</h1>
+                <ol class="projects-list">
+                    <li class="project-item">Desarrollo de la arquitectura de software de un e-commerce</li>
+                    <li class="project-item">BOU - Proyecto de innovacion para mejoramiento de las filas</li>
+                    <li class="project-item">Aplicación para calcular la pensión de las personas</li>
+                    <li class="project-item">Aplicación transaccional para un hotel</li>
+                </ol>
+            </div>
+            <hr>
         </div>
-    </nav>
-  <div class="resumen d-flex flex-column align-items-center">
-        <h1 class="skills" id="skills">Skills</h1>
-        <h1 class="courses" id="courses">Courses</h1>
-        <h1 class="projects" id="projects">Projects</h1>
     </div>
-</div>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
         crossorigin="anonymous"></script>

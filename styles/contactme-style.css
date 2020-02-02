@@ -1,0 +1,41 @@
+body{
+    background-color: rgba(0, 0, 0, 0.65);
+
+}
+
+.flex-container{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+
+.nav-bar{
+    margin: 0px;
+    align-self: flex-start;
+    width: 100%;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    height: 30%;
+}
+
+#volver{
+    color: white;
+    font-size: x-large;    
+}
+
+.h1{
+    color: white;
+    text-align: center;
+}
+
+a:hover, a:focus, a:active{
+    background-color:rgba(0, 204, 255, 0.5);
+    font-size: 120%;
+  }

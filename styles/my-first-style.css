@@ -3,6 +3,13 @@
   max-width: 75rem;
   flex-grow: 1;
   text-align: center;
+  background-color: rgba(0, 0, 0, 0.65);
+}
+
+hr{
+  border: solid;
+  width: 99%;
+  border-color: rgba(255, 0, 0, 0.65);
 }
 
 .flex-container-body{
@@ -37,16 +44,38 @@
       
       #nav-side .navbar-nav .nav-item .nav-link {
         color: white;
+        cursor: pointer;
       }
 
-        #skills, #courses, #projects {
+        .resumen > div  {
           min-height: 100vh;
           min-width: 18rem;
+          color: white;
         }
+#contactme{
+  margin-top: 63vh;
+}
 
 a:hover, a:focus, a:active{
   background-color:rgba(0, 204, 255, 0.5);
   font-size: 120%;
+}
+
+#about-segunda-linea, #about-tercera-linea{
+  display: block;
+  margin-top: 15%;
+}
+
+ol.projects-list > li, ol.courses-list > li{
+  text-align: left;
+}
+
+ol.courses-list{
+  margin-left: 15%;
+}
+
+ol.projects-list{
+  margin: auto;
   
 }
 
