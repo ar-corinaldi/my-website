@@ -3,7 +3,7 @@ Project objective:
 This project is an assignment for my web development course, however this page is very important to me as you'll see most important things that I've achieved in a lifetime. I hope you can enjoy it!. 
 
 Screenshots:
-![alt text](https://raw.githubusercontent/ar-corinaldi/my-website/tree/master/img/screenshot.png)
+![alt text](https://raw.githubusercontent.com/ar-corinaldi/my-website/master/img/screenshot.png)
 Tech requirements:
 A modern web browser.
 
