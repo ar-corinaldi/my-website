@@ -51,7 +51,6 @@ hr{
   display:flex;
   align-items: flex-;
   flex-flow: row nowrap;
-  max-width: inherit;
 
 }
 
@@ -63,7 +62,6 @@ hr{
     display: flex;
     flex-direction: column;
     width: 20%;
-    max-width: inherit;
 
     height: 100%;
   }
@@ -71,8 +69,6 @@ hr{
         display: flex;
         align-items: flex-start;
         flex-grow: 0;
-        width: 100%;
-        max-width: inherit;
         margin-bottom: auto;
 
       }
@@ -80,14 +76,11 @@ hr{
       #nav-side .navbar-nav {
         flex-direction: column;
         flex-grow: 0;
-        width: 100%;
-        max-width: inherit;
       }
       
       #nav-side .navbar-nav .nav-item .nav-link, #profile-picture {
         color: white;
         cursor: pointer;
-        max-width: inherit;
       }
 
         .resumen > div  {
