@@ -2,59 +2,59 @@ body{
     background-color: rgba(0, 0, 0, 0.65);
 }
 
+@media(max-width:320px) { 
+  p.h1{
+    font-size: 20px;
+    max-width: inherit;
+  }
+  .social-icons a{
+    font-size: 0.8rem;
+  }
+}
+
+@media(max-width:460px) { 
+  p.h1{
+    font-size: 20px;
+    max-width: inherit;
+  }
+
+  .social-icons a{
+    font-size: 0.9rem;
+  }
+}
+
+.social-icons{
+  max-width: 75rem;
+  margin-top: 10%;
+}
+
 .social-icons a {
 
     display: inline-block;
     height: 3.5rem;
-    width: 3.5rem;
+    max-width: 3.5rem;
     color: #fff !important;
     border-radius: 100%;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.0rem;
     line-height: 3.5rem;
     margin-right: 1rem;
-  }
-  
-  .social-icons a:last-child {
-    margin-right: 0;
+
   }
   
   .social-icons a:hover {
     background-color: #BD5D38;
   }
-  
-
-.flex-container{
-    display: flex;
-    flex-flow: column nowrap;
-    align-items: center;
-    justify-content: flex-start;
-    
-}
-
-.nav-bar{
-    margin: 0px;
-    align-self: flex-start;
-    width: 100%;
-}
-
-.text{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10%;
-    height: 30%;
-    flex-flow: column nowrap;
-}
 
 #volver{
     color: white;
     font-size: x-large;    
 }
 
-.h1{
+p.h1{
     color: white;
     text-align: center;
+    margin-top: 20%;
 }
 
 a:hover, a:focus, a:active{

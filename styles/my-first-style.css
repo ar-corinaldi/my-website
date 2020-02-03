@@ -6,26 +6,65 @@
   background-color: rgba(0, 0, 0, 0.65);
 }
 
+@media(max-width:260){
+  #nav-side .navbar-nav .nav-item .nav-link {
+    font-size: 5px;
+  }
+  .circles h6{
+    font-size: 8px;
+    margin-left: 5%;
+  }
+
+  .circles{
+
+  }
+}
+@media(max-width:460px){
+  #nav-side .navbar-nav .nav-item .nav-link {
+    font-size: 10px;
+  }
+  
+  #nav-side{
+    width: 15%;
+  }
+
+  .circles h6{
+    font-size: 8px;
+    margin-left: 5%;
+  }
+
+}
+
+
 hr{
   border: solid;
   width: 99%;
   border-color: rgba(255, 0, 0, 0.65);
 }
 
+.navbar{
+  background-color: green;
+  justify-content: left;
+}
+
 .flex-container-body{
   display:flex;
-  align-items: flex-start;
+  align-items: flex-;
   flex-flow: row nowrap;
+  max-width: inherit;
+
 }
 
   #nav-side {
-    text-align: center;
+    text-align: left;
     position: fixed;
     top: 0;
     left: 0;
     display: flex;
     flex-direction: column;
     width: 20%;
+    max-width: inherit;
+
     height: 100%;
   }
     #nav-side .navbar-collapse {
@@ -33,18 +72,22 @@ hr{
         align-items: flex-start;
         flex-grow: 0;
         width: 100%;
+        max-width: inherit;
         margin-bottom: auto;
+
       }
 
       #nav-side .navbar-nav {
         flex-direction: column;
         flex-grow: 0;
         width: 100%;
+        max-width: inherit;
       }
       
       #nav-side .navbar-nav .nav-item .nav-link, #profile-picture {
         color: white;
         cursor: pointer;
+        max-width: inherit;
       }
 
         .resumen > div  {
@@ -87,5 +130,10 @@ a.nav-link:hover, a:focus, a:active{
   max-height: inherit;
   font-size: smaller;
   text-align: center;
+}
+
+.project-item{
+  text-align: left;
+  font-size: 1.5rem;
 }
 
