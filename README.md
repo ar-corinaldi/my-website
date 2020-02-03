@@ -12,3 +12,5 @@ Click in the following link!: https://ar-corinaldi.github.io/my-website/index.ht
 
 homepage:
 https://github.com/ar-corinaldi
+
+Tecnologies: CSS, Bootstrap4, html, Javascript
