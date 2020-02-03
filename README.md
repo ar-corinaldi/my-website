@@ -8,7 +8,7 @@ Tech requirements:
 A modern web browser.
 
 How to use it:
-Click in the following link!: https://ar-corinaldi.github.io/my-website/index.html
+Click in the following link!: https://raw.ar-corinaldi.github.io/my-website/index.html
 
 homepage:
 https://github.com/ar-corinaldi
