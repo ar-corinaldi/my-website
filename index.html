@@ -2,8 +2,10 @@
 <html lang="en">
 
 <head>
+    <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- My Custom Style -->
     <link rel="stylesheet" href="styles/my-first-style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,6 +16,14 @@
 <body>
     <div class="flex-container-body">
         <nav id="nav-side" class="navbar navbar-expand-lg bg-primary fixed-top">
+            <!-- Profile Picture -->
+            <a id="profile-picture" class="navbar-brand" onclick="myFunction('about')">
+                <span class="d-none d-lg-block">
+                    <img class="responsive img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg"
+                        alt="profile picture">
+                </span>
+            </a>
+            <!-- Side Nab-Bar w/ about, skills, courses and contact me  -->
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav">
                     <li class="nav-item">
@@ -34,41 +44,221 @@
                 </ul>
             </div>
         </nav>
+        <!-- Resumen -->
         <div class="resumen d-flex flex-column align-items-center">
+            <!-- About -->
             <div class="about">
-                <h1 id="about">Hola, mi nombre es Allan Corinaldi y soy un adolescente de 20 años que vive en Colombia. 
-                <span id="about-segunda-linea">Esta página está hecha para mostrar mis habilidades, mi estudio y mis logros en esta corta vida.</span>
-                <span id="about-tercera-linea">Espero que la disfruten!</span></h1>
+                <h3 id="about" class="section-heading m-b-40">ABOUT ME</h3>
+                <div class="row justify-content-center" style="max-width: 100%;">
+                    <div class="text-about col" style="margin-top: 15%; margin-left: 5%;">
+                        <h6>Hi, my name is Allan Corinaldi and I'm a 20-year-old computer science student from Los Andes
+                            university
+                            currently in my 6th semester.</h6>
+                    </div>
+                    <div class="img-about col" style="margin-top: 10%;">
+                        <img src="img/programmer.svg" alt="Programmer-icon" width="120px" height="120px">
+                    </div>
+                </div>
+                <div class="colombia row" style="margin-top: 10%; max-width:100%;">
+                    <div class="img-about col">
+                        <img src="img/colombia.svg" alt="Colombia-icon" width="120px" height="120px">
+                    </div>
+                    <div class="text-about col justify-content-center" style="margin-top: 4%;">
+                        <h6>I was born in Cucuta, Colombia and I lived there for 18 years. When I entered the university
+                            I moved to Bogota.</h6>
+                    </div>
+                </div>
+                <div class="tenis row" style="margin-top: 5%; max-width:100%;">
+                    <div class="text-about col" style="margin-top: 4%; margin-left: 5%;">
+                        <h6>My favorite sport is tennis, which I practice since I'm 4 years old. In ASCUN among the
+                            universities of Bogota I'm in 2nd place!</h6>
+                    </div>
+                    <div class="img-about col">
+                        <img src="img/tennis.svg" alt="Tennis-icon" width="120px" height="120px">
+                    </div>
+                </div>
             </div>
             <hr>
+            <!-- Skills -->
             <div class="skills">
-                <h1 id="skills">Skills</h1>
-                <h3>Soy un estudiante de ingenieria de sistemas de la universidad de los Andes, actualmente cursando su sexto semestre.</h3>
+                <!-- Technical Skills -->
+                <h1 id="skills">Technical Skills</h1>
+                <div style="margin: 6%;" class="row">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="img/javascript.svg" alt="Javascript" width="100%" height="180px">
+                        <div class="card-body">
+                            <a href="#" class="btn btn-primary">JavaScript</a>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="https://i.ytimg.com/vi/mog8EKQX5HI/maxresdefault.jpg"
+                            alt="Angular" width="100%" height="180px">
+                        <div class="card-body">
+                            <a href="#" class="btn btn-primary">Angular</a>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="img/nginx.svg" alt="Nginx" width="100%" height="180px">
+                        <div class="card-body">
+                            <a href="#" class="btn btn-primary">Nginx</a>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="img/c++.svg" alt="C++" width="100%" height="180px">
+                        <div class="card-body">
+                            <a href="#" class="btn btn-primary">C++</a>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="img/python.svg" alt="python" width="100%" height="180px">
+                        <div class="card-body">
+                            <a href="#" class="btn btn-primary">Python</a>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="img/sql.svg" alt="SQL" width="100%" height="180px">
+                        <div class="card-body">
+                            <a href="#" class="btn btn-primary">SQL</a>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="img/java.svg" alt="java" width="100%" height="180px">
+                        <div class="card-body">
+                            <a href="#" class="btn btn-primary">Java</a>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="https://gmdevblog.com/wp-content/uploads/2019/02/firebase.png"
+                            alt="firebase" width="100%" height="180px">
+                        <div class="card-body">
+                            <a href="#" class="btn btn-primary">Firebase</a>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="img/github.svg" alt="github" width="100%" height="180px">
+                        <div class="card-body">
+                            <a href="#" class="btn btn-primary">Github</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Language Skills -->
+                <h1 id="skills">Language Skills</h1>
+                <div class="languages row" style="margin: 6%;">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-title">
+                            <h5 class="bg-primary">English</h5>
+                        </div>
+                        <div class="card-body">
+                            <div class="english progress">
+                                <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80"
+                                    aria-valuemin="0" aria-valuemax="100">80%</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-title">
+                            <h5 class="bg-primary">Spanish</h5>
+                        </div>
+                        <div class="card-body">
+                            <div class="spanish progress">
+                                <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95"
+                                    aria-valuemin="0" aria-valuemax="100">95%</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-title">
+                            <h5 class="bg-primary">German</h5>
+                        </div>
+                        <div class="card-body">
+                            <div class="german progress">
+                                <div class="progress-bar" role="progressbar" style="width: 17%;" aria-valuenow="17"
+                                    aria-valuemin="0" aria-valuemax="100">17%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <hr>
+            <!-- Courses -->
             <div class="courses">
-                <h1 id="courses">Important Courses</h1>
+                <h1 id="courses">Some Important Courses</h1>
+                <div class="circles">
+                    <div id="aaoop" class="circle" data-toggle="collapse" data-target="#apo" aria-expanded="true"
+                        aria-controls="apo">
+                        <p>Algorithmic and Object Oriented Programming</p>
+                    </div>
+                    <h6 id="apo" >The Algorithmic and Object Oriented Programming 1 (APO1)
+                        course is
+                        a course
+                        programming introductory, in which students who have never programmed
+                        they obtain the necessary skills to develop complete applications with interfaces
+                        graphics, persistence and automated tests.</h6>
+                    <div id="ds" class="circle" data-toggle="collapse" data-target="#datos" aria-expanded="false"
+                        aria-controls="datos">
+                        <p>Data Structure</p>
+                    </div>
+                    <h6 class="collapse" id="datos">Data structures, is the last course of the basic programming
+                        cycle, the purpose of this course is to generate in the student the ability to design and
+                        implement the data structures in main memory necessary to solve a problem, taking into
+                        account the quality criteria efficiency in runtime and main memory of the solution.</h6>
+                    <div id="daaa" class="circle" data-toggle="collapse" data-target="#dalgo" aria-expanded="false"
+                        aria-controls="dalgo">
+                        <p>Design and Analysis Algorithms</p>
+                    </div>
+                    <h6 class="collapse" id="dalgo">Present basic design concepts and algorithm analysis. At the end
+                        of the course, the student must be able to apply algorithm development techniques such as
+                        divide and conquer, dynamic programming, use various search algorithms and analyze their
+                        complexity in time and space.</h6>
+                    <div id="sa" class="circle" data-toggle="collapse" data-target="#arquisoft" aria-expanded="false"
+                        aria-controls="arquisoft">
+                        <p>Software Architecture</p>
+                    </div>
+                    <h6 class="collapse" id="arquisoft">Develop the competencies of defining, justifying,
+                        implementing and testing a software architecture for a complex system. The architecture is
+                        built in a team using a development methodology that includes agile practices (e.g., of
+                        SCRUM).</h6>
+                    <div id="sd" class="circle" data-toggle="collapse" data-target="#desarrollo" aria-expanded="false"
+                        aria-controls="desarrollo">
+                        <p>Software Development</p>
+                    </div>
+                    <h6 class="collapse" id="desarrollo">The purpose of this course is to develop skills in the
+                        areas of software design and architecture, relying on methodological tools such as
+                        architecture styles, patterns (e.g. design, architecture). Likewise, it is intended to
+                        develop the ability to use and understand the impact of technology on software architecture.
+                    </h6>
+
+                    <div id="ts" class="circle" data-toggle="collapse" data-target="#sistrans" aria-expanded="false"
+                        aria-controls="sistrans">
+                        <p>Transactional Systems</p>
+                    </div>
+                    <h6 class="collapse" id="sistrans">The course studies the problem of persistence and shared
+                        access of large volumes of data in the context of the design, development and operation of
+                        transactional systems. It addresses both the methodological aspects of design, such as
+                        transactional and relational database technology.
+                    </h6>
+                </div>
                 <ol class="courses-list">
-                    <li class="course-item">Algorítmica y Programación Orientada a Objetos</li>
-                    <li class="course-item">Diseño y Análisis de Algorítmos</li>
-                    <li class="course-item">Arquitectura de Software</li>
-                    <li class="course-item">Desarrollo de Software</li>
-                    <li class="course-item">Estructura de Datos</li>
-                    <li class="course-item">Sistemas Transaccionales</li>
+                    <li class="course-item collapse">Algorithmic and Object Oriented Programming</li>
+                    <li class="course-item collapse">Design and Analysis Algorithms</li>
+                    <li class="course-item collapse">Software Architecture</li>
+                    <li class="course-item collapse">Software Development</li>
+                    <li class="course-item collapse">Data Structure</li>
+                    <li class="course-item collapse">Transactional Systems</li>
                 </ol>
-                <h3>Actualmente en el curso de desarrollo web!</h3>
+                <h3>Currently in the web development course!</h3>
             </div>
             <hr>
+            <!-- Projects -->
             <div class="projects">
                 <h1 id="projects">Projects</h1>
                 <ol class="projects-list">
-                    <li class="project-item">Desarrollo de la arquitectura de software de un e-commerce</li>
-                    <li class="project-item">BOU - Proyecto de innovacion para mejoramiento de las filas</li>
-                    <li class="project-item">Aplicación para calcular la pensión de las personas</li>
-                    <li class="project-item">Aplicación transaccional para un hotel</li>
+                    <li class="project-item">Development of the software architecture of an e-commerce</li>
+                    <li class="project-item">BOU - Innovation project for row improvement</li>
+                    <li class="project-item">Application to calculate the pension of people</li>
+                    <li class="project-item">Transactional application for a hotel</li>
                 </ol>
             </div>
-            <hr>
         </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
@@ -81,6 +271,7 @@
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
     <script>
+        // Function to scroll to a spefici element
         function myFunction(element) {
             var elmnt = document.getElementById(element);
             elmnt.scrollIntoView();

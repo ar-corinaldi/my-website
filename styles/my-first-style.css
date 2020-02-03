@@ -42,7 +42,7 @@ hr{
         width: 100%;
       }
       
-      #nav-side .navbar-nav .nav-item .nav-link {
+      #nav-side .navbar-nav .nav-item .nav-link, #profile-picture {
         color: white;
         cursor: pointer;
       }
@@ -52,11 +52,8 @@ hr{
           min-width: 18rem;
           color: white;
         }
-#contactme{
-  margin-top: 63vh;
-}
 
-a:hover, a:focus, a:active{
+a.nav-link:hover, a:focus, a:active{
   background-color:rgba(0, 204, 255, 0.5);
   font-size: 120%;
 }
@@ -76,6 +73,37 @@ ol.courses-list{
 
 ol.projects-list{
   margin: auto;
-  
+}
+
+
+.circle {
+  position: relative;
+  /* left: -44%; */
+    width: 110px;
+    height: 110px;
+    -webkit-border-radius: 55px;
+    -moz-border-radius: 55px;
+    border-radius: 55px;
+    background: red;
+    cursor: pointer;
+}
+
+.circle p{
+  position:absolute;
+  top: 20%;
+  max-width: inherit;
+  max-height: inherit;
+  font-size: smaller;
+  text-align: center;
+}
+
+#ds p{
+  position:absolute;
+  top: 20%;
+  left: 10%;
+  max-width: inherit;
+  max-height: inherit;
+  font-size: smaller;
+  text-align: center;
 }
 
