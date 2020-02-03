@@ -6,6 +6,7 @@
   background-color: rgba(0, 0, 0, 0.65);
 }
 
+/* Ajusta tamanio cuando la ventana se encoje en los links de la navbar y el tecto de los circles */
 @media(max-width:260){
   #nav-side .navbar-nav .nav-item .nav-link {
     font-size: 5px;
@@ -14,11 +15,9 @@
     font-size: 8px;
     margin-left: 5%;
   }
-
-  .circles{
-
-  }
 }
+
+/* Ajusta tamanio cuando la ventana se encoje en los links de la navbar y el tecto de los circles */
 @media(max-width:460px){
   #nav-side .navbar-nav .nav-item .nav-link {
     font-size: 10px;
@@ -34,7 +33,6 @@
   }
 
 }
-
 
 hr{
   border: solid;
@@ -53,7 +51,7 @@ hr{
   flex-flow: row nowrap;
 
 }
-
+  /* Pongo a la izquierda la navbar*/
   #nav-side {
     text-align: left;
     position: fixed;
@@ -62,41 +60,42 @@ hr{
     display: flex;
     flex-direction: column;
     width: 20%;
-
     height: 100%;
   }
+
     #nav-side .navbar-collapse {
-        display: flex;
-        align-items: flex-start;
-        flex-grow: 0;
-        margin-bottom: auto;
+      display: flex;
+      align-items: flex-start;
+      flex-grow: 0;
+      margin-bottom: auto;
+    }
 
-      }
-
-      #nav-side .navbar-nav {
-        flex-direction: column;
-        flex-grow: 0;
-      }
+    #nav-side .navbar-nav {
+      flex-direction: column;
+      flex-grow: 0;
+    }
       
-      #nav-side .navbar-nav .nav-item .nav-link, #profile-picture {
-        color: white;
-        cursor: pointer;
-      }
 
-        .resumen > div  {
-          min-height: 100vh;
-          min-width: 18rem;
-          color: white;
-        }
+    #nav-side .navbar-nav .nav-item .nav-link, #profile-picture {
+      color: white;
+      cursor: pointer;
+    }
 
+    .resumen > div  {
+      min-height: 100vh;
+      min-width: 18rem;
+      color: white;
+    }
+
+/* Acciones sobre la barra */
 a.nav-link:hover, a:focus, a:active{
   background-color:rgba(0, 204, 255, 0.5);
   font-size: 120%;
 }
 
+/* Dibuja el circulo */
 .circle {
   position: relative;
-  /* left: -44%; */
     width: 110px;
     height: 110px;
     -webkit-border-radius: 55px;
@@ -106,6 +105,7 @@ a.nav-link:hover, a:focus, a:active{
     cursor: pointer;
 }
 
+/* Hace que los parrafos esten dentro del circulo */
 .circle p{
   position:absolute;
   top: 20%;
@@ -115,6 +115,7 @@ a.nav-link:hover, a:focus, a:active{
   text-align: center;
 }
 
+/* Estaba corrido data structures */
 #ds p{
   position:absolute;
   top: 20%;
@@ -125,6 +126,7 @@ a.nav-link:hover, a:focus, a:active{
   text-align: center;
 }
 
+/* Pone a la izquierda cada proyecto */
 .project-item{
   text-align: left;
   font-size: 1.5rem;

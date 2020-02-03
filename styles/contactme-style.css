@@ -2,6 +2,7 @@ body{
     background-color: rgba(0, 0, 0, 0.65);
 }
 
+/* Ajusta el tamanio del texto del correo, ademas de los icons */
 @media(max-width:320px) { 
   p.h1{
     font-size: 20px;
@@ -12,6 +13,7 @@ body{
   }
 }
 
+/* Ajusta el tamanio del texto del correo, ademas de los icons */
 @media(max-width:460px) { 
   p.h1{
     font-size: 20px;
@@ -23,11 +25,13 @@ body{
   }
 }
 
+/* Tamanio la fila de los iconos */
 .social-icons{
   max-width: 75rem;
   margin-top: 10%;
 }
 
+/* Configuracion de los botones de iconos */
 .social-icons a {
 
     display: inline-block;
@@ -46,17 +50,20 @@ body{
     background-color: #BD5D38;
   }
 
+  /* Hace el boton mas grande */
 #volver{
     color: white;
     font-size: x-large;    
 }
 
+/* Centra el texto del correo y le da margin y color */
 p.h1{
     color: white;
     text-align: center;
     margin-top: 20%;
 }
 
+/* acciones que se hacen cuando se pasa, toca o esta activado el "botton" de volver */
 a:hover, a:focus, a:active{
     background-color:rgba(0, 204, 255, 0.5);
     font-size: 120%;
